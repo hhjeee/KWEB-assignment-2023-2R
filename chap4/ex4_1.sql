@@ -12,4 +12,4 @@ CREATE TABLE `students` (
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- 학번 = 입학 연도 + 전공 + 개별 번호
+--학번 = 입학 연도 + 전공 + 개별 번호

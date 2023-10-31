@@ -2,7 +2,7 @@ CREATE TABLE `users` (
     `id` INT NOT NULL AUTO_INCREMENT,
     `password` VARCHAR(20) NOT NULL,
     `nickname` VARCHAR(20) NOT NULL,
-    `img_link` VARCHAR(128) NOT NULL,
+    `profile_img_link` VARCHAR(128) NOT NULL,
     `profile_message` VARCHAR(128) NOT NULL,
     `deleting_account` TINYINT(1) NOT NULL DEFAULT 0,
     `date_join` DATETIME NOT NULL,
